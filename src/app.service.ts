@@ -8,5 +8,8 @@ export class AppService {
   getResponse(): string {
     return 'respuesta de la aplicacion basica backend';
   }
+  getResponse2(): string {
+    return 'nueva funcion de la aplicacion basica backend';
+  }
 
 }
