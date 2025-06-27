@@ -17,4 +17,8 @@ export class AppController {
   getRama2(): string {
     return this.appService.getRama2();
   }
+  @Get('/funcion2')
+  getResponse2(): string {
+    return this.appService.getResponse2();
+  }
 }

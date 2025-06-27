@@ -11,5 +11,8 @@ export class AppService {
   getRama2(): string {
     return 'rama 2 de la aplicacion basica backend';
   }
+  getResponse2(): string {
+    return 'nueva funcion de la aplicacion basica backend';
+  }
 
 }
